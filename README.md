@@ -1,2 +1,2 @@
 # epreuves-coding-accelerator
-Épreuves Terre, Eau, Air et Feu
+Algorithmes - Épreuves Terre, Eau, Air et Feu
