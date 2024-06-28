@@ -1,0 +1,13 @@
+# This is a comment
+
+# Ignore all .log files
+*.log
+
+# Ignore a specific file
+config.env
+
+# Ignore all files in a specific directory
+learnjs/
+
+# Ignore all .pdf files in the docs directory and its subdirectories
+docs/**/*.pdf
