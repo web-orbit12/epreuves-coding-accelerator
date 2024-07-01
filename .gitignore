@@ -11,3 +11,5 @@ learnjs/
 
 # Ignore all .pdf files in the docs directory and its subdirectories
 docs/**/*.pdf
+
+node_modules/*
