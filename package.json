@@ -1,0 +1,18 @@
+{
+  "name": "epreuves-coding-accelerator",
+  "version": "1.0.0",
+  "description": "Algorithmes - Épreuves Terre, Eau, Air et Feu",
+  "main": "terre00.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
