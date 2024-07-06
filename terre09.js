@@ -18,7 +18,6 @@ let arg1 = process.argv[2];
 arg1 = Number(arg1);  // Convert arg to a number
 
 
-
 if ( isNaN(arg1) || !Number.isInteger(arg1) ) {
     console.log("Error: Invalid arguments. Please provide an integer argument.");
 } 
@@ -33,13 +32,15 @@ else if ( Math.sign(arg1) !== 1 ) {
 
 else {
     /* METHOD 1 */
-    for (let i=1; i < arg1 / 2; i++) {
+    for (let i=1; i < arg1; i++) {
+        // case square root found
         if ( i*i === arg1) {
             console.log(i);
             break;
         }
-        else if ( i === arg1 - 1 ) {
-            console.log("No results found");
+        else if ( i === arg1 / 2 || i === arg1-1 ) {
+            console.log("No perfect square root found");
+            break;
         }
     }
 
