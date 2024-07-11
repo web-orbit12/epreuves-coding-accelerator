@@ -1,5 +1,3 @@
-const path = require('path');
-
 // These variables are automatically defined in Node.js CommonJS modules
 const isMain = require.main === module;
 
