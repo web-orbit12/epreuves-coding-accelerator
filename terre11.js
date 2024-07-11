@@ -15,7 +15,6 @@ Attention : midi et minuit.
 
 */
 
-// Define a function to check if a number is prime
 let convertTime = (inputTime) => {
 
     // Convert the argument to a number
