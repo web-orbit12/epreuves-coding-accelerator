@@ -13,3 +13,5 @@ learnjs/
 docs/**/*.pdf
 
 node_modules/*
+
+__tests*
