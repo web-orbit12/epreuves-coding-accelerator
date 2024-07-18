@@ -12,7 +12,7 @@ Attention : je compte sur vous pour gérer les potentielles erreurs d’argument
 Fonctions interdites: 
 -La fonction sqrt
 
-*/
+*/ 
 
 let arg1 = process.argv[2];
 arg1 = Number(arg1);  // Convert arg to a number
