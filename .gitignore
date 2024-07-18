@@ -15,3 +15,7 @@ docs/**/*.pdf
 node_modules/*
 
 __tests*
+
+babel.config.cjs*
+
+jest.*
