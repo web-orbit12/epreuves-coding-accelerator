@@ -95,4 +95,4 @@ if (isMain) {
     convertTime(process.argv[2]);
 }
 
-module.exports = convertTime;
+module.exports = convertTime; 
