@@ -14,7 +14,7 @@ $> ruby exo.rb 23:40
 Attention : midi et minuit.
 
 */
-
+ 
 let convertTime = (inputTime) => {
 
     // Convert the argument to a number
