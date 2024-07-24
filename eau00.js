@@ -29,17 +29,14 @@ let combinations = () => {
     for (i=0; i<10; i++) {   
         for (j=i+1; j<10; j++) {
             for (k=j+1; k<10; k++) {
-                runCheck(i,j,k);   
+                loggedNumbers.push(i+""+j+""+k);  // add combination to the array
             } 
         }   
     }    
 }
 
 /* # Part 1 : ERROR HANDLING */
-//check if any number repeats and skip in loop
-let runCheck = (i,j,k) => {
-    loggedNumbers.push(i+""+j+""+k);  // add combination to the array
-}
+
 
 /* # Part 2 : PARSING DATA */
 let loggedNumbers = [];
